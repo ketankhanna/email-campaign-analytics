@@ -16,6 +16,10 @@ The analysis I wish every email team ran after a send, turned into one reusable 
 ## Data
 **100% synthetic**, generated in the notebook with a fixed seed so the results are reproducible. No real customer, campaign or company data is used. The code expects a standard export (`Campaignname`, `Sentdate`, `Delivered`, `Unique Clicks`, `Unsubscribe Clicks`), so it drops straight onto a real Adobe Campaign or ESP report.
 
+## Who did what
+- **Me:** the analysis itself: which questions matter after a send, the metrics (weighted CTR, unsubscribe rate), the year-over-year, program and English/French breakdowns, and the recommendations. It's based on analysis I built for real campaign reporting.
+- **AI assist (Claude):** rebuilt it as a clean public version: the synthetic data generator, the A/B significance test and the tidy notebook layout, so no real data ever leaves work.
+
 ## Run it
 Click **Open in Colab** above and choose *Runtime → Run all*. Nothing to install.
 
